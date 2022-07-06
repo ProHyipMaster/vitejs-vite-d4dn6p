@@ -1,0 +1,1221 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/main/index/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"style": {
+					"onReachBottomDistance": 50
+				}
+			}
+		},
+		{
+			"path": "pages/main/mall/mall",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/main/message/index",
+			"style": {
+				"onReachBottomDistance": 50,
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/main/my/my"
+		}, {
+			"path": "pages/main/account/account",
+			"style": {}
+		},
+		{
+			"path": "pages/main/account/spendHistory",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/main/account/withdraw",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/main/account/charge",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/main/account/chargeAndWithdrawHistory",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/mall/detailVirtualGoods",
+			"style": {}
+		},
+
+		{
+			"path": "pages/my/personalInformation/index",
+			"style": {}
+		},
+		{
+			"path": "pages/main/activityComment/activityComment",
+			"style": {}
+		},
+		{
+			"path": "pages/my/discount/discount",
+			"style": {}
+		},
+		{
+			"path": "pages/main/guide/guide",
+			"style": {}
+		},
+		{
+			"path": "pages/main/guide/index",
+			"style": {}
+		}, {
+			"path": "pages/main/welcome/welcome",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mainCategory/commonJobListPage/commonJobListPage",
+			"style": {
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "pages/POnlineMall/tabIndex",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/POnlineMall/tabClass",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/tabCart",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/points",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/POnlineMall/commodityDetail",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black"
+			}
+
+		}, {
+			"path": "pages/POnlineMall/commodityRate",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/userAddress",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/orderPay",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/index",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/hotTaskList",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/myTask",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/moneyManagement",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/POnlineMall/tabClass",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/tabCart",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/POnlineMall/commodityRate",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/userAddress",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/POnlineMall/orderPay",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/index",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/hotTaskList",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/myTask",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/moneyManagement",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/dayTask/dayTask",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/main/agreement/agreement",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/moneyRank",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/makeMoneyOnline/taskDetail",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/main/selectTypeToAddJob/selectTypeToAddJob",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/addTask/addTask",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/lotteryList/lotteryList",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "pages/main/lotteryDetail/lotteryDetail",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/businessCooperation/businessCooperation",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/cashMoney/cashMoney",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/sign/sign",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/scoreHistory/scoreHistory",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/moneyRank/moneyRank",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/myTask/myTask",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "pages/main/money/money",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/myTeam/myTeam",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/inviteFriend/inviteFriend",
+			"style": {
+
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/taskDetail/taskDetail",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/simpleTask/simpleTask",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/vip/vip",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/vipPay/vipPay",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/checkTaskList/checkTaskList",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/lotteryRank/lotteryRank",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/addActivity/addActivity",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/myActivity/myActivity",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/inviteRank/inviteRank",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/goodsOrder/goodsOrder",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/expressInfo/expressInfo",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/orderComment/orderComment",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/reputation/reputation",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/systemMessage/systemMessage",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "pages/main/webview/webview",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "default",
+				"navigationBarTextStyle": "black"
+			}
+
+		}, {
+			"path": "pages/main/download/download",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/otherWithdrawList/otherWithdrawList",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/otherWithdrawAdd/otherWithdrawAdd",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/setTaskTop/setTaskTop",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/games/index/index",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "pages/games/gameDetail/gameDetail",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/games/gameHistory/gameHistory",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/goodJob/goodJob",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/allAgreements/allAgreements",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/main/taskDetail/taskSubmit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/login",
+			"pages": [{
+					"path": "smsLogin"
+				},
+				{
+					"path": "reg"
+				}, {
+					"path": "forgetPassword",
+					"style": {
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "forget",
+					"style": {
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "passwordLogin",
+					"style": {
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "fastLogin",
+					"style": {}
+				}, {
+					"path": "getMsgCode/getMsgCode",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "codeLogin/codeLogin",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "passwordLogin/passwordLogin",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+
+		{
+			"root": "pages/message",
+			"pages": [{
+					"path": "messageSet/messageSet",
+					"style": {}
+				},
+				{
+					"path": "messageAutoReply/messageAutoReply",
+					"style": {}
+				},
+				{
+					"path": "messageBan/messageBan",
+					"style": {}
+				},
+				{
+					"path": "chat/chat",
+					"style": {}
+				},
+				{
+					"path": "msgSystem/msgSystem",
+					"style": {}
+				},
+				{
+					"path": "navAbleMsgList/navAbleMsgList",
+					"style": {}
+				},
+				{
+					"path": "operateFeedback/operateFeedback",
+					"style": {}
+				},
+				{
+					"path": "messageBar/index",
+					"style": {}
+				}, {
+					"path": "index/index",
+					"style": {
+
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "black"
+					}
+				}, {
+					"path": "serviceChat/serviceChat",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "pages/chatRoom",
+			"pages": [{
+					"path": "index/index",
+					"style": {}
+				},
+				{
+					"path": "myFocus/myFocus",
+					"style": {}
+				},
+				{
+					"path": "chatCircle/chatCircle",
+					"style": {}
+				},
+				{
+					"path": "blogDetail/blogDetail",
+					"style": {}
+				},
+				{
+					"path": "addBlog/addBlog",
+					"style": {}
+				}
+			]
+		}, {
+			"root": "pages/commonPage",
+			"pages": [{
+					"path": "multipleColumnFilter/multipleColumnFilter",
+					"style": {}
+				},
+				{
+					"path": "tipOff/tipOff",
+					"style": {}
+				},
+				{
+					"path": "selectCity/selectCity",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "authSettings/authSettings",
+					"style": {}
+				},
+				{
+					"path": "search/search",
+					"style": {}
+				},
+				{
+					"path": "commonJobList/commonJobList",
+					"style": {}
+				}
+			]
+		},
+		{
+			"root": "pages/settings",
+			"pages": [{
+					"path": "about",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "changeAccount",
+					"style": {}
+				},
+				{
+					"path": "settings",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "changePasswordSelect",
+					"style": {}
+				},
+				{
+					"path": "setPassword",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "changePassword",
+					"style": {}
+				},
+				{
+					"path": "changePasswordBySms",
+					"style": {}
+				}, {
+					"path": "changePayPassword",
+					"style": {}
+				}
+			]
+		},
+		{
+			"root": "pages/mainCategory",
+			"pages": [{
+					"path": "activityCenter/activityCenter",
+					"style": {}
+				},
+				{
+					"path": "rank/rank",
+					"style": {}
+				},
+				{
+					"path": "jobRecommend/jobRecommend",
+					"style": {}
+				},
+				{
+					"path": "workingNow/workingNow",
+					"style": {}
+				},
+				{
+					"path": "more/more",
+					"style": {}
+				},
+				{
+					"path": "dailyWork/dailyWork",
+					"style": {}
+				},
+				{
+					"path": "nearbyPartTimeJob/nearbyPartTimeJob",
+					"style": {}
+				},
+				{
+					"path": "partTimeJob/index",
+					"style": {}
+				},
+				{
+					"path": "fullTimeJob/fullTimeJob",
+					"style": {}
+				},
+				{
+					"path": "bigStudent/bigStudent",
+					"style": {}
+				},
+				{
+					"path": "partTimeVacation/partTimeVacation",
+					"style": {}
+				},
+				{
+					"path": "certificationDetail/certificationDetail",
+					"style": {}
+				},
+				{
+					"path": "jobDetailManyInOne/manyInOneJobDetail",
+					"style": {}
+				},
+				{
+					"path": "manyInOneJob/manyInOneJob",
+					"style": {}
+				},
+				{
+					"path": "jobDetailParttime/jobDetail",
+					"style": {}
+				},
+				{
+					"path": "hotTrades/hotTrades",
+					"style": {}
+				},
+				{
+					"path": "parttimeJobNet/parttimeJobNet",
+					"style": {}
+				},
+				{
+					"path": "jingjirendaizhao/jingjirendaizhao",
+					"style": {}
+				},
+				{
+					"path": "jobDetailFulltime/fulltimeJobDetail",
+					"style": {}
+				},
+				{
+					"path": "enterpriseList/enterpriseList",
+					"style": {}
+				},
+				{
+					"path": "skillWork/skillWork",
+					"style": {}
+				},
+				{
+					"path": "groupList/groupList",
+					"style": {}
+				}
+			]
+		},
+
+		{
+			// 商城页面
+			"root": "pages/mall",
+			"pages": [{
+					"path": "detailGoods",
+					"style": {}
+				},
+				{
+					"path": "detailRMBGoods",
+					"style": {}
+				},
+				{
+					"path": "detailRealGoods",
+					"style": {}
+				},
+				{
+					"path": "mallDetail/mallDetail",
+					"style": {}
+				},
+				{
+					"path": "saleOtherShopGoods",
+					"style": {}
+				},
+				{
+					"path": "serviceType/shopDetail/shopDetail",
+					"style": {}
+				},
+				{
+					"path": "serviceType/applyList/applyList",
+					"style": {}
+				},
+				{
+					"path": "serviceType/infoDetail/infoDetail",
+					"style": {}
+				}
+
+			]
+		},
+		{
+			// 活动
+			"root": "pages/activity",
+			"pages": [{
+					"path": "activityDetail",
+					"style": {}
+				},
+				{
+					"path": "activityRank"
+				},
+				{
+					"path": "myActivity",
+					"style": {}
+				}
+			]
+		},
+		{
+			// 幸运币
+			"root": "pages/luckyCoin",
+			"pages": [{
+					"path": "coinCenter",
+					"style": {}
+				},
+				{
+					"path": "coinGift",
+					"style": {}
+				},
+				{
+					"path": "coinHistory",
+					"style": {}
+				},
+				{
+					"path": "giftDetail",
+					"style": {}
+				}
+			]
+		},
+		{
+			// 我的
+			"root": "pages/my",
+			"pages": [{
+					"path": "contactService",
+					"navigationBarTextStyle": "black"
+				},
+				{
+					"path": "address"
+				},
+				{
+					"path": "addressAdd/addressAdd"
+				},
+				{
+					"path": "feedback/feedback"
+				},
+				{
+					"path": "about"
+				},
+				{
+					"path": "expressInfo",
+					"style": {}
+				},
+				{
+					"path": "agreement",
+					"style": {}
+				},
+				{
+					"path": "qualifications",
+					"style": {}
+				},
+				{
+					"path": "myTeam",
+					"style": {
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "aq/aq",
+					"style": {}
+				},
+				{
+					"path": "businessCooperation",
+					"style": {}
+				},
+				{
+					"path": "auth/auth",
+					"style": {}
+				},
+				{
+					"path": "ensureAgreement/ensureAgreement",
+					"style": {}
+				},
+				{
+					"path": "vip/vip",
+					"style": {}
+				},
+				{
+					"path": "vip/pay",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/index",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/edu",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/expect",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/selfEvaluate",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/skill",
+					"style": {}
+				},
+				{
+					"path": "personalInformation/work",
+					"style": {}
+				},
+				{
+					"path": "fav/fav",
+					"style": {}
+				},
+				{
+					"path": "myOrder/myOrder",
+					"style": {
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "myOrder/comment",
+					"style": {}
+				},
+				{
+					"path": "myOrder/calendar",
+					"style": {}
+				},
+				{
+					"path": "scoreShop/scoreShop",
+					"style": {}
+				},
+				{
+					"path": "cashHistory/cashHistory",
+					"style": {}
+				},
+				{
+					"path": "reputation/reputation",
+					"style": {}
+				},
+				{
+					"path": "reputationRule/reputationRule",
+					"style": {}
+				},
+
+				{
+					"path": "lookedJobHistory/lookedJobHistory",
+					"style": {
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "myFocus/myFocus",
+					"style": {}
+				},
+				{
+					"path": "myInner/myInner",
+					"style": {}
+				}, {
+					"path": "myFans/myFans",
+					"style": {}
+				}, {
+					"path": "goodsOrders/goodsOrders",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "profile/profile",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "profileEdit/profileEdit",
+					"style": {
+
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "black"
+					}
+
+				}, {
+					"path": "favJobs/favJobs",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "myParttimeJobs/myParttimeJobs",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "fileCv/fileCv",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "applyJobHistory/applyJobHistory",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "focusList/focusList",
+					"style": {
+
+						"enablePullDownRefresh": false,
+						"onReachBottomDistance": 50
+					}
+
+				}, {
+					"path": "signData/signData",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "myMoney/myMoney",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "accountDetail/accountDetail",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "widthdraw/widthdraw",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "personAuth/personAuth",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "scoreExchangeGoods/scoreExchangeGoods",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "chargeCenter/chargeCenter",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "helpCenter/helpCenter",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "helpCenterDetail/helpCenterDetail",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "download/download",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "rules/rules",
+					"style": {
+
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		}
+	],
+	// "condition": {
+	// 	//模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式（list 的索引项）
+	// 	"list": [{
+	// 		"name": "首页", //模式名称
+	// 		"path": "pages/mainCategory/test/test", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到。
+	// 	}]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#fbf9fe",
+		"navigationStyle": "custom",
+		"navigationBarShadow": {
+			"colorType": "grey"
+		},
+		"mp-alipay": {
+			"allowsBounceVertical": "NO"
+		}
+	},
+	"tabBar": {
+		"color": "#52585D",
+		"selectedColor": "#346DF0",
+		"fontSize": "10px",
+		"backgroundColor": "#ffffff",
+		"iconWidth": "20px",
+		"spacing": "3px",
+		"borderStyle": "white",
+
+		"list": [{
+				"pagePath": "pages/main/index/index",
+				"iconPath": "static/img/tab/tab_index.png",
+				"selectedIconPath": "static/img/tab/index_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/main/my/my",
+				"iconPath": "/static/img/tab/tab_my.png",
+				"selectedIconPath": "/static/img/tab/tab_my_active.png",
+				"text": "我的",
+				"navigationBarTextStyle": "black"
+			}
+		],
+		"midButton": {
+			"height": "64px",
+			"width": "40px",
+			"iconPath": "static/img/tab/tab_add.png",
+			"iconWidth": "50px",
+			"text": "发布"
+		}
+	}
+}
